@@ -153,6 +153,7 @@ public class Client extends javax.swing.JFrame {
 	 */
 	public void actions(String s)
 	{
+		System.out.println(s);
 		if(s.startsWith(MyProtocol.SHOW_ONLINE))
 		{
 			String list = showOnline(s);
