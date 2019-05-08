@@ -29,6 +29,7 @@ public class ListenerThread implements Runnable{
     }
     /**
      * this method returns the vector of the servers which handles each client.
+     * @return the vector of the servers which handles each client.
     */
     public Vector<ServerThread> getClientsVector()
     {
